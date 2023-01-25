@@ -1,0 +1,264 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("wallpaper3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbuttonf {
+  top: 5px;
+  position: fixed;
+  margin: 2px;
+  padding: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 70px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  outline: none;
+  color: rgb(125, 1, 233);
+  background-color: #ba76c8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(231, 190, 233);
+}
+
+.rev {
+  position: absolute;
+  color: rgb(104, 0, 104);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1cm;
+  margin-top: 60px;
+  margin-left: 670px;
+}
+
+.rev-text {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: #ffffff;
+  max-width: 450px;
+  margin-left: 90px;
+  margin-top: 170px;
+  width: 370px;
+}
+
+.classification {
+  display: flex;
+  margin-top: -95px;
+  margin-left: 120px;
+}
+.name {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.stars {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -1px;
+}
+
+.text-one {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.review-text {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: #ffffff;
+  max-width: 450px;
+  margin-left: 550px;
+  margin-top: 170px;
+  width: 370px;
+}
+
+.person2 {
+  display: flex;
+  margin-top: -95px;
+  margin-left: 120px;
+}
+
+.text-two {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.reviews-text {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: #ffffff;
+  max-width: 450px;
+  margin-left: 1050px;
+  margin-top: 170px;
+  width: 370px;
+}
+
+.person3 {
+  display: flex;
+  margin-top: -95px;
+  margin-left: 120px;
+}
+
+.text-three {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.other-text {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: #ffffff;
+  max-width: 450px;
+  margin-left: 90px;
+  margin-top: 440px;
+  width: 370px;
+}
+
+.person4 {
+  display: flex;
+  margin-top: -95px;
+  margin-left: 120px;
+}
+
+.text-four {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.also-text {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: #ffffff;
+  margin-left: 550px;
+  margin-top: 440px;
+  width: 370px;
+}
+
+.person5 {
+  display: flex;
+  margin-top: -95px;
+  margin-left: 120px;
+}
+
+.text-five {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.another-text {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: #ffffff;
+  max-width: 450px;
+  margin-left: 1050px;
+  margin-top: 440px;
+  width: 370px;
+}
+
+.person6 {
+  display: flex;
+  margin-top: -95px;
+  margin-left: 120px;
+}
+
+.text-six {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.results {
+  position: absolute;
+  margin-top: 690px;
+  margin-left: 22px;
+}
+
+.ioan {
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.ioan:hover {
+  transform: scale(1.1);
+}
+.gabi {
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.gabi:hover {
+  transform: scale(1.1);
+}
+
+.ralu {
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.ralu:hover {
+  transform: scale(1.1);
+}
+
+.hora {
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.hora:hover {
+  transform: scale(1.1);
+}
+
+.ade {
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.ade:hover {
+  transform: scale(1.1);
+}
+
+.razvi {
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.razvi:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #cd1c77a5;
+  height: 100px;
+  width: 100%;
+  margin-left: -9px;
+  position: absolute;
+  bottom: -390px;
+}
+
+.finalofall {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+}

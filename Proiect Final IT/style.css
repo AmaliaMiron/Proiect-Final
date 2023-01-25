@@ -1,0 +1,501 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: #f7ddffb1;
+  height: 60px;
+  margin: -8px;
+  width: 1519px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 10px;
+  width: 600px;
+  height: 20px;
+  margin-left: 400px;
+}
+
+.navbutton {
+  position: fixed;
+  margin: 15px;
+  padding: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+  width: 70px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(125, 1, 233);
+  background-color: #ba76c8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(231, 190, 233);
+}
+
+.contact-button {
+  position: absolute;
+  padding: 7px;
+  margin: 10px;
+  right: 5px;
+  width: 90px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(125, 1, 233);
+  background-color: #ba76c8;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(231, 190, 233);
+}
+
+.modal {
+  position: absolute;
+  margin-right: 400px;
+  height: 500px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: rgb(250, 202, 255);
+  border-color: rgb(211, 146, 237);
+  box-shadow: 1px 1px 25px rgb(252, 62, 255);
+}
+
+.close-button {
+  position: absolute;
+  cursor: pointer;
+  top: 1px;
+  right: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 33px;
+  color: #9c02b4;
+}
+
+.modal-title {
+  font-family: "Times New Roman", Times, serif;
+  color: #770271;
+}
+
+label {
+  color: #a703c8;
+  margin-right: 280px;
+}
+
+input {
+  width: 95%;
+  box-sizing: border-box;
+  border: 10px;
+  border: 2px solid #963e96;
+  padding: 10px;
+  margin: 7px;
+}
+
+textarea {
+  width: 95%;
+  box-sizing: border-box;
+  border: 10px;
+  border: 2px solid #963e96;
+  padding: 10px;
+}
+
+.modal-button {
+  position: relative;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  background: rgb(244, 107, 242);
+  font-family: "Times New Roman", Times, serif;
+  color: #530359;
+  font-size: large;
+  font-weight: 900;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #ae3199;
+}
+
+.modal-button:hover {
+  color: rgb(196, 15, 169);
+}
+
+.modal-button:active {
+  background-color: #973f9f;
+  transform: translateY(4px);
+}
+
+.sendmessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(236, 167, 231);
+  color: rgb(54, 1, 53);
+  visibility: hidden;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  font-family: "Times New Roman", Times, serif;
+  width: 280px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+.tips {
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: rgb(35, 11, 40);
+}
+
+.allnavs {
+  color: rgb(35, 11, 40);
+  width: 200px;
+}
+
+.main-photo {
+  margin-left: 360px;
+  margin-top: 20px;
+}
+
+.main-text {
+  margin-left: 480px;
+  width: 600px;
+}
+.main-text h2 {
+  color: rgb(95, 8, 75);
+  margin-left: 160px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: xx-large;
+}
+
+.main-text h3 {
+  color: rgb(120, 8, 118);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.review {
+  position: absolute;
+  margin-left: 1450px;
+  margin-top: -450px;
+  background-color: #ea90f42d;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.reviews {
+  font-size: 1.1cm;
+  font-weight: 900;
+  text-align: center;
+  color: #de00bd;
+}
+
+section {
+  width: 1100px;
+}
+
+.first-content {
+  display: block;
+  margin-left: 50px;
+  margin-top: 80px;
+  border: 3px solid;
+  border-radius: 8px;
+  border-color: rgb(61, 4, 74);
+  background-color: #f7ddff;
+  padding: 20px 40px;
+  width: 920px;
+  height: 370px;
+}
+
+h4 {
+  color: rgb(100, 7, 116);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.first-content p {
+  width: 500px;
+  color: rgb(100, 20, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: initial;
+}
+
+.logo {
+  display: inline-block;
+  position: relative;
+  left: 570px;
+  top: -295px;
+  width: 300px;
+  height: 320px;
+}
+
+.second-content {
+  display: block;
+  margin-left: 50px;
+  margin-top: 80px;
+  border: 3px solid;
+  border-radius: 8px;
+  border-color: rgb(61, 4, 74);
+  background-color: #f7ddff;
+  padding: 20px 40px;
+  width: 920px;
+  height: 370px;
+}
+
+h5 {
+  color: rgb(100, 7, 116);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.second-content p {
+  width: 500px;
+  color: rgb(100, 20, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: initial;
+}
+
+.mark {
+  display: inline-block;
+  position: relative;
+  left: 570px;
+  top: -350px;
+  width: 300px;
+  height: 300px;
+}
+
+.third-content {
+  display: block;
+  margin-left: 50px;
+  margin-top: 80px;
+  border: 3px solid;
+  border-radius: 8px;
+  border-color: rgb(61, 4, 74);
+  background-color: #f7ddff;
+  padding: 0px 40px;
+  width: 920px;
+  height: 400px;
+}
+
+h6 {
+  color: rgb(100, 7, 116);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.third-content p {
+  width: 500px;
+  color: rgb(100, 20, 99);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: initial;
+}
+
+.logo-mark {
+  display: inline-block;
+  position: relative;
+  left: 570px;
+  top: -360px;
+  width: 300px;
+  height: 300px;
+}
+
+aside {
+  display: block;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  width: 350px;
+  margin-left: 1130px;
+  margin-top: -1300px;
+}
+
+.first-aside {
+  height: 50px;
+}
+
+.first-aside p {
+  color: rgb(3, 65, 55);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin-top: -35px;
+  margin-left: 60px;
+}
+
+.second-aside {
+  height: 50px;
+  margin-top: 40px;
+}
+
+.second-aside p {
+  color: rgb(3, 65, 55);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.third-aside {
+  height: 50px;
+  margin-top: 40px;
+}
+
+.number3-photo {
+  margin-left: -18px;
+}
+
+.third-aside p {
+  color: rgb(3, 65, 55);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.fourth-aside {
+  height: 50px;
+  margin-top: 55px;
+}
+
+.fourth-aside p {
+  color: rgb(3, 65, 55);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+.fifth-aside {
+  height: 50px;
+  margin-top: 55px;
+}
+
+.fifth-aside p {
+  color: rgb(3, 65, 55);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+.sixth-aside {
+  height: 50px;
+  margin-top: 55px;
+}
+
+.number6-photo {
+  margin-left: -4px;
+}
+
+.sixth-aside p {
+  color: rgb(3, 65, 55);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin-top: -55px;
+  margin-left: 60px;
+}
+
+.comments-container {
+  border-radius: 8px;
+  border: 2px solid rgb(64, 3, 65);
+  margin-top: 80px;
+  width: 350px;
+  height: 190px;
+  background-color: #f7ddff;
+  box-shadow: 1px 1px 20px #e8c4f7;
+}
+
+.comment-box {
+  align-content: center;
+  flex-direction: column;
+}
+
+.comment {
+  font-size: large;
+  font-weight: 700;
+  width: 250px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.textarea {
+  width: 310px;
+  margin-left: 20px;
+}
+
+.comm-button {
+  margin-top: 18px;
+  margin-left: 125px;
+  width: 110px;
+}
+
+.comments-posted {
+  max-width: 345px;
+}
+
+.comments {
+  text-align: start;
+  margin-top: 20px;
+  max-width: 345px;
+  border: 3px solid rgb(64, 3, 65);
+  border-radius: 8px;
+  background-color: #f7ddff;
+}
+
+.comments p {
+  margin-left: 10px;
+}
+
+.deleteButton {
+  color: rgb(112, 14, 144);
+  border: 2px solid rgb(64, 3, 65);
+  border-radius: 8px;
+  background-color: #fbe7ff;
+  font-weight: 700;
+  margin-bottom: 7px;
+  margin-left: 270px;
+}
+
+footer {
+  position: absolute;
+  background-color: rgb(170, 81, 187);
+  height: 300px;
+  top: 2200px;
+  left: 0px;
+  width: 1519px;
+}
+
+.final {
+  width: 380px;
+  margin-left: 600px;
+  margin-top: 120px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: xx-large;
+}
